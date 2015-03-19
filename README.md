@@ -1,2 +1,2 @@
 # FunBox
-something fun
+some tests

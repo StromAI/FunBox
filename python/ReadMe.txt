@@ -1,0 +1,2 @@
+g++ -g -shared -fPIC -I/usr/include/python2.7 decision.cpp -lpython2.7 -lboost_python -o decision.so 
+g++ -g -shared -fPIC -I/usr/include/python2.7 -g boostpy.cpp -g boostpy.h out.cpp -lpython2.7 -lboost_python -o boostpy.so
